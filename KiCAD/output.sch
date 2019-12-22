@@ -1,0 +1,1015 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 "168"
+Comment3 "238"
+Comment4 ""
+$EndDescr
+Text Notes 2650 700  0    60   Italic 0
+KIT 4b
+Text Notes 1200 700  0    120  Italic 0
+Output/Display
+Wire Wire Line
+	7400 5350 7450 5350
+Wire Wire Line
+	7400 5400 7400 5350
+Wire Wire Line
+	5800 5050 5800 5300
+Connection ~ 5800 5050
+Wire Wire Line
+	5800 4650 5800 5050
+Connection ~ 5800 4650
+Wire Wire Line
+	5800 4600 5800 4650
+Wire Wire Line
+	4450 5050 4450 5350
+Connection ~ 4450 5050
+Wire Wire Line
+	4500 5050 4450 5050
+Wire Wire Line
+	4450 4650 4450 5050
+Connection ~ 4450 4650
+Wire Wire Line
+	4500 4650 4450 4650
+Wire Wire Line
+	4450 5350 4500 5350
+Wire Wire Line
+	4450 4550 4450 4650
+NoConn ~ 4600 7050
+NoConn ~ 4600 6900
+NoConn ~ 3750 7800
+NoConn ~ 3750 7600
+NoConn ~ 3750 7300
+NoConn ~ 3750 7100
+NoConn ~ 3750 6800
+NoConn ~ 3750 6600
+Wire Wire Line
+	2400 4100 2500 4100
+Connection ~ 2400 4100
+Wire Wire Line
+	2400 4100 2400 4150
+Wire Wire Line
+	2300 4100 2400 4100
+Wire Wire Line
+	2300 3750 2300 4100
+Wire Wire Line
+	3850 3850 3850 3950
+Wire Wire Line
+	4450 4250 4450 4050
+Connection ~ 4450 4250
+Wire Wire Line
+	4450 4050 4450 3650
+Connection ~ 4450 4050
+Wire Wire Line
+	4450 3650 4450 3550
+Connection ~ 4450 3650
+Wire Wire Line
+	4450 4350 4450 4250
+Wire Wire Line
+	5800 4200 5800 4300
+Connection ~ 5800 4200
+Wire Wire Line
+	5800 4050 5800 4200
+Connection ~ 5800 4050
+Wire Wire Line
+	5800 3650 5800 4050
+Connection ~ 5800 3650
+Wire Wire Line
+	5800 3600 5800 3650
+Wire Wire Line
+	5800 3200 5800 3250
+Connection ~ 5800 3200
+Wire Wire Line
+	5800 3100 5800 3200
+Wire Wire Line
+	5800 2950 5800 3000
+Connection ~ 4650 3300
+Wire Wire Line
+	4650 3300 4650 3350
+Wire Wire Line
+	4900 3300 5150 3300
+Connection ~ 4900 3300
+Wire Wire Line
+	4650 3300 4900 3300
+Wire Wire Line
+	4800 2700 4800 2900
+Connection ~ 4800 2700
+Wire Wire Line
+	5200 2700 4800 2700
+Wire Wire Line
+	4800 2900 4900 2900
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 2650 4800 2700
+Wire Wire Line
+	4900 2900 4900 2950
+Wire Wire Line
+	4650 2900 4800 2900
+Wire Wire Line
+	4650 2950 4650 2900
+$Comp
+L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+U 1 1 5B57E43D
+P 2900 2850
+AR Path="/5B57D8E5/5B57E43D" Ref="U46"  Part="1" 
+AR Path="/5FD86289/5B57E43D" Ref="U?"  Part="1" 
+F 0 "U46" H 2700 3100 50  0000 C CNN
+F 1 "74LS08" H 2850 2850 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 2900 2850 50  0001 C CNN
+F 3 "" H 2900 2850 50  0001 C CNN
+	1    2900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+U 2 1 5B5831E5
+P 4150 6700
+AR Path="/5B57D8E5/5B5831E5" Ref="U46"  Part="2" 
+AR Path="/5FD86289/5B5831E5" Ref="U?"  Part="2" 
+F 0 "U46" H 4150 6750 50  0000 C CNN
+F 1 "74LS08" H 4150 6650 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 4150 6700 50  0001 C CNN
+F 3 "" H 4150 6700 50  0001 C CNN
+	2    4150 6700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7400 5400 7400 5350
+Wire Notes Line
+	5800 2950 5800 3000
+Wire Notes Line
+	4650 3350 4650 3300
+Wire Wire Line
+	4650 3250 4650 3300
+$Comp
+L power:VCC #PWR0160
+U 1 1 5E596B7A
+P 5800 4600
+AR Path="/5B57D8E5/5E596B7A" Ref="#PWR0160"  Part="1" 
+AR Path="/5FD86289/5E596B7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0160" H 5800 4450 50  0001 C CNN
+F 1 "VCC" H 5950 4650 50  0000 C CNN
+F 2 "" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4050 4500 4050
+Wire Wire Line
+	4450 4250 4500 4250
+Wire Wire Line
+	4450 4350 4500 4350
+Wire Wire Line
+	5800 3000 5850 3000
+Wire Notes Line
+	4500 4350 4450 4350
+Wire Notes Line
+	4500 4250 4450 4250
+$Comp
+L power:VCC #PWR?
+U 1 1 5E587FF7
+P 4800 2650
+AR Path="/5B57D8E5/5E587FF7" Ref="#PWR?"  Part="1" 
+AR Path="/5FD86289/5E587FF7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 2500 50  0001 C CNN
+F 1 "VCC" H 4950 2700 50  0000 C CNN
+F 2 "" H 4800 2650 50  0001 C CNN
+F 3 "" H 4800 2650 50  0001 C CNN
+	1    4800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:74LS273-8bit-computer-rescue U44
+U 1 1 5B57E544
+P 4250 2300
+AR Path="/5B57D8E5/5B57E544" Ref="U44"  Part="1" 
+AR Path="/5FD86289/5B57E544" Ref="U?"  Part="1" 
+F 0 "U44" H 4550 2900 50  0000 C CNN
+F 1 "74LS273" H 4250 2300 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3150 3500 2800
+Wire Wire Line
+	5850 4650 5800 4650
+$Comp
+L 8bit-computer-rescue:28C16-8bit-computer-rescue U45
+U 1 1 5B57E241
+P 6450 2500
+AR Path="/5B57E241" Ref="U45"  Part="1" 
+AR Path="/5B57D8E5/5B57E241" Ref="U45"  Part="1" 
+AR Path="/5FD86289/5B57E241" Ref="U?"  Part="1" 
+F 0 "U45" H 6750 3300 50  0000 C CNN
+F 1 "28C16" H 6450 2500 50  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W15.24mm_Socket" H 6450 2300 50  0001 C CNN
+F 3 "" H 6450 2300 50  0001 C CNN
+	1    6450 2500
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 5850 0    60   Italic 0
+NOTE: 74LS76 and 74LS107 are functionally \nequivalent but are not pin compatible, both \nare shown but only use one
+Wire Wire Line
+	7000 4850 7000 5700
+Wire Wire Line
+	6950 4450 6950 5850
+Connection ~ 4350 3850
+Wire Wire Line
+	4050 3850 4350 3850
+Wire Wire Line
+	4050 3400 4050 3850
+Wire Wire Line
+	3650 3400 4050 3400
+Wire Wire Line
+	5150 2900 5200 2900
+Wire Wire Line
+	5150 2950 5150 2900
+Wire Wire Line
+	5150 3300 5150 3250
+$Comp
+L Device:R R104
+U 1 1 5B88EA88
+P 5150 3100
+AR Path="/5B57D8E5/5B88EA88" Ref="R104"  Part="1" 
+AR Path="/5FD86289/5B88EA88" Ref="R?"  Part="1" 
+F 0 "R104" H 5250 3050 50  0000 L CNN
+F 1 "10k" H 5250 3150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5080 3100 50  0001 C CNN
+F 3 "~" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2600 5650 3850
+$Comp
+L 8bit-computer-rescue:74LS107-8bit-computer-rescue U37ALT1
+U 2 1 5E754609
+P 6350 4850
+F 0 "U37ALT1" H 6500 5150 50  0000 C CNN
+F 1 "74LS107-ALT" H 6350 4250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 6350 4850 50  0001 C CNN
+F 3 "" H 6350 4850 50  0001 C CNN
+	2    6350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4450 5650 4850
+Connection ~ 5650 4450
+Wire Wire Line
+	5650 4450 6950 4450
+Wire Wire Line
+	7000 5700 7450 5700
+Wire Wire Line
+	5650 4850 5850 4850
+Connection ~ 5650 4850
+Wire Wire Line
+	5500 4850 5650 4850
+Wire Wire Line
+	5650 3850 5850 3850
+Wire Wire Line
+	5650 3850 5650 4450
+Connection ~ 5650 3850
+Wire Wire Line
+	5500 3850 5650 3850
+Connection ~ 2900 4300
+Wire Wire Line
+	3200 4300 2900 4300
+Wire Wire Line
+	5850 5050 5800 5050
+Wire Wire Line
+	5800 5300 5850 5300
+Wire Wire Line
+	4350 3850 4500 3850
+Wire Wire Line
+	4350 4850 4500 4850
+Wire Wire Line
+	4350 3850 4350 4850
+Wire Wire Line
+	7000 3400 7000 3850
+Wire Wire Line
+	7000 3850 7000 4850
+Connection ~ 7000 3850
+Wire Wire Line
+	3600 4300 3850 4300
+Wire Wire Line
+	3850 4250 3850 4300
+Connection ~ 3600 4300
+Wire Wire Line
+	3750 3650 3650 3650
+Wire Wire Line
+	3750 4200 3750 3650
+Wire Wire Line
+	3600 4200 3750 4200
+Wire Wire Line
+	3600 4300 3600 4200
+Wire Wire Line
+	3500 4300 3600 4300
+Wire Wire Line
+	2900 4100 2900 4300
+Wire Wire Line
+	3700 4100 2900 4100
+$Comp
+L power:VCC #PWR0159
+U 1 1 5E497A3E
+P 3850 3850
+AR Path="/5B57D8E5/5E497A3E" Ref="#PWR0159"  Part="1" 
+AR Path="/5FD86289/5E497A3E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0159" H 3850 3700 50  0001 C CNN
+F 1 "VCC" H 3850 4000 50  0000 C CNN
+F 2 "" H 3850 3850 50  0001 C CNN
+F 3 "" H 3850 3850 50  0001 C CNN
+	1    3850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0158
+U 1 1 5E43A0DE
+P 4450 4550
+AR Path="/5B57D8E5/5E43A0DE" Ref="#PWR0158"  Part="1" 
+AR Path="/5FD86289/5E43A0DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0158" H 4450 4400 50  0001 C CNN
+F 1 "VCC" H 4600 4600 50  0000 C CNN
+F 2 "" H 4450 4550 50  0001 C CNN
+F 3 "" H 4450 4550 50  0001 C CNN
+	1    4450 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4850
+Wire Wire Line
+	6850 4850 7000 4850
+NoConn ~ 6850 4650
+NoConn ~ 5500 4650
+Wire Wire Line
+	7300 4650 7300 3800
+Wire Wire Line
+	7500 4200 7100 4200
+Connection ~ 7300 3800
+Wire Wire Line
+	7500 4650 7300 4650
+Wire Wire Line
+	7300 3800 7300 2950
+Wire Wire Line
+	7500 3800 7300 3800
+$Comp
+L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U42
+U 1 1 5B57E27F
+P 8050 3850
+AR Path="/5B57D8E5/5B57E27F" Ref="U42"  Part="1" 
+AR Path="/5FD86289/5B57E27F" Ref="U?"  Part="1" 
+F 0 "U42" H 8650 4200 50  0000 R CNN
+F 1 "7SEGMENT_CC" H 8350 3500 50  0001 R CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 8100 3550 50  0001 L CNN
+F 3 "" H 8050 3870 50  0001 L CNN
+	1    8050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 4200
+Wire Wire Line
+	7100 5050 7100 4200
+Wire Wire Line
+	7100 4200 7100 3350
+Wire Wire Line
+	7500 3700 7350 3700
+Wire Wire Line
+	7500 3500 7450 3500
+Wire Wire Line
+	8750 3800 8600 3800
+Wire Wire Line
+	7500 3900 7250 3900
+Wire Wire Line
+	7500 4000 7200 4000
+Wire Wire Line
+	7500 4100 7150 4100
+Wire Wire Line
+	8600 3900 8750 3900
+Wire Wire Line
+	7500 3600 7400 3600
+$Comp
+L 8bit-computer-rescue:74LS107-8bit-computer-rescue U37ALT1
+U 1 1 5E104B2B
+P 5000 4850
+F 0 "U37ALT1" H 5150 5150 50  0000 C CNN
+F 1 "74LS107-ALT" H 5000 4250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 5000 4850 50  0001 C CNN
+F 3 "" H 5000 4850 50  0001 C CNN
+	1    5000 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 4750
+Wire Wire Line
+	8700 5300 8700 4750
+Connection ~ 8750 3900
+Wire Wire Line
+	8750 5500 8750 3900
+Connection ~ 8800 3050
+Wire Wire Line
+	8800 5700 8800 3050
+Connection ~ 8850 2200
+Wire Wire Line
+	8850 5900 8850 2200
+Wire Wire Line
+	7150 2400 7500 2400
+Connection ~ 7150 2400
+Connection ~ 7150 3250
+Wire Wire Line
+	7150 3250 7150 2400
+Wire Wire Line
+	7200 2300 7500 2300
+Connection ~ 7200 2300
+Connection ~ 7200 3150
+Wire Wire Line
+	7200 3150 7200 2300
+Wire Wire Line
+	7250 2200 7500 2200
+Connection ~ 7250 2200
+Connection ~ 7250 3050
+Wire Wire Line
+	7250 3050 7250 2200
+Wire Wire Line
+	7300 2100 7500 2100
+Connection ~ 7300 2100
+Connection ~ 7300 2950
+Wire Wire Line
+	7300 2950 7300 2100
+Wire Wire Line
+	7350 2000 7500 2000
+Connection ~ 7350 2000
+Connection ~ 7350 2850
+Wire Wire Line
+	7350 2850 7350 2000
+Connection ~ 7400 2750
+Wire Wire Line
+	7400 1900 7500 1900
+Connection ~ 7400 1900
+Wire Wire Line
+	7400 2750 7400 1900
+Connection ~ 7450 2650
+Wire Wire Line
+	7450 1800 7500 1800
+Connection ~ 7450 1800
+Wire Wire Line
+	7450 2650 7450 1800
+Wire Wire Line
+	7050 2400 7150 2400
+Wire Wire Line
+	7050 1800 7450 1800
+Wire Wire Line
+	7050 1900 7400 1900
+Wire Wire Line
+	7050 2000 7350 2000
+Wire Wire Line
+	7050 2100 7300 2100
+Wire Wire Line
+	7050 2200 7250 2200
+Wire Wire Line
+	7050 2300 7200 2300
+$Comp
+L 8bit-computer-rescue:74LS139-8bit-computer-rescue U38
+U 2 1 5B582A2D
+P 5200 7150
+AR Path="/5B57D8E5/5B582A2D" Ref="U38"  Part="2" 
+AR Path="/5FD86289/5B582A2D" Ref="U?"  Part="2" 
+F 0 "U38" H 5200 7250 50  0000 C CNN
+F 1 "74LS139" H 5200 7050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 5200 7150 50  0001 C CNN
+F 3 "" H 5200 7150 50  0001 C CNN
+	2    5200 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3400 2650 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3450 2300 3400
+Wire Wire Line
+	2500 4100 2500 4050
+Wire Wire Line
+	2150 4300 2900 4300
+Wire Wire Line
+	2500 3650 2650 3650
+Wire Wire Line
+	2500 3750 2500 3650
+$Comp
+L Device:R R66
+U 1 1 5B57E361
+P 3350 4300
+AR Path="/5B57D8E5/5B57E361" Ref="R66"  Part="1" 
+AR Path="/5FD86289/5B57E361" Ref="R?"  Part="1" 
+F 0 "R66" V 3250 4300 50  0000 C CNN
+F 1 "100K" V 3450 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3280 4300 50  0001 C CNN
+F 3 "" H 3350 4300 50  0001 C CNN
+	1    3350 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 6276C89B
+P 7400 5400
+AR Path="/5B57D8E5/6276C89B" Ref="#PWR0142"  Part="1" 
+AR Path="/5FD86289/6276C89B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0142" H 7400 5150 50  0001 C CNN
+F 1 "GND" H 7400 5250 50  0000 C CNN
+F 2 "" H 7400 5400 50  0001 C CNN
+F 3 "" H 7400 5400 50  0001 C CNN
+	1    7400 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 3900
+Wire Wire Line
+	3650 3900 3700 3900
+Wire Wire Line
+	2150 3400 2150 4300
+Wire Wire Line
+	3700 3900 3700 4100
+Wire Wire Line
+	5850 3650 5800 3650
+Wire Wire Line
+	5850 4050 5800 4050
+Wire Wire Line
+	5850 4200 5800 4200
+Wire Wire Line
+	5850 4300 5800 4300
+NoConn ~ 5500 3650
+NoConn ~ 6850 3650
+Wire Wire Line
+	4450 3650 4500 3650
+Wire Wire Line
+	6850 3850 7000 3850
+Wire Wire Line
+	7450 5850 6950 5850
+Wire Wire Line
+	2150 3400 2300 3400
+$Comp
+L power:GND #PWR0141
+U 1 1 621DE8F8
+P 2400 4150
+AR Path="/5B57D8E5/621DE8F8" Ref="#PWR0141"  Part="1" 
+AR Path="/5FD86289/621DE8F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0141" H 2400 3900 50  0001 C CNN
+F 1 "GND" H 2550 4100 50  0000 C CNN
+F 2 "" H 2400 4150 50  0001 C CNN
+F 3 "" H 2400 4150 50  0001 C CNN
+	1    2400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0140
+U 1 1 62420C79
+P 5800 3600
+AR Path="/5B57D8E5/62420C79" Ref="#PWR0140"  Part="1" 
+AR Path="/5FD86289/62420C79" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0140" H 5800 3450 50  0001 C CNN
+F 1 "VCC" H 5950 3700 50  0000 C CNN
+F 2 "" H 5800 3600 50  0001 C CNN
+F 3 "" H 5800 3600 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0139
+U 1 1 62449966
+P 4450 3550
+AR Path="/5B57D8E5/62449966" Ref="#PWR0139"  Part="1" 
+AR Path="/5FD86289/62449966" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0139" H 4450 3400 50  0001 C CNN
+F 1 "VCC" H 4450 3700 50  0000 C CNN
+F 2 "" H 4450 3550 50  0001 C CNN
+F 3 "" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3400 5700 3400
+$Comp
+L power:VCC #PWR0138
+U 1 1 61EE4A94
+P 5800 2950
+AR Path="/5B57D8E5/61EE4A94" Ref="#PWR0138"  Part="1" 
+AR Path="/5FD86289/61EE4A94" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0138" H 5800 2800 50  0001 C CNN
+F 1 "VCC" H 5900 3050 50  0000 C CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2800 5850 2800
+Wire Wire Line
+	4950 2500 5850 2500
+Wire Wire Line
+	5850 2400 4950 2400
+Wire Wire Line
+	4950 2300 5850 2300
+Wire Wire Line
+	5850 2200 4950 2200
+Wire Wire Line
+	4950 2100 5850 2100
+Wire Wire Line
+	4950 2000 5850 2000
+Wire Wire Line
+	4950 1900 5850 1900
+Wire Wire Line
+	4950 1800 5850 1800
+Wire Wire Line
+	7500 2500 7100 2500
+Wire Wire Line
+	7500 2650 7450 2650
+Wire Wire Line
+	7500 2750 7400 2750
+Wire Wire Line
+	7500 2850 7350 2850
+Wire Wire Line
+	7500 2950 7300 2950
+Wire Wire Line
+	7500 3050 7250 3050
+Wire Wire Line
+	7500 3150 7200 3150
+Wire Wire Line
+	7500 3250 7150 3250
+Wire Wire Line
+	7500 3350 7100 3350
+Wire Wire Line
+	7100 3350 7100 2500
+Connection ~ 7100 2500
+Wire Wire Line
+	7100 2500 7050 2500
+Wire Wire Line
+	7450 3500 7450 2650
+Wire Wire Line
+	7400 3600 7400 2750
+Wire Wire Line
+	7350 3700 7350 2850
+Wire Wire Line
+	7250 3900 7250 3050
+Wire Wire Line
+	7200 4000 7200 3150
+Wire Wire Line
+	7150 4100 7150 3250
+Connection ~ 7100 3350
+Wire Wire Line
+	7500 4350 7450 4350
+Wire Wire Line
+	7450 4350 7450 3500
+Connection ~ 7450 3500
+Wire Wire Line
+	7500 4450 7400 4450
+Wire Wire Line
+	7400 4450 7400 3600
+Connection ~ 7400 3600
+Wire Wire Line
+	7500 4550 7350 4550
+Wire Wire Line
+	7350 4550 7350 3700
+Connection ~ 7350 3700
+Wire Wire Line
+	7500 4750 7250 4750
+Wire Wire Line
+	7250 4750 7250 3900
+Wire Wire Line
+	7500 4850 7200 4850
+Wire Wire Line
+	7200 4850 7200 4000
+Connection ~ 7200 4000
+Wire Wire Line
+	7500 4950 7150 4950
+Wire Wire Line
+	7150 4950 7150 4100
+Connection ~ 7150 4100
+Wire Wire Line
+	7500 5050 7100 5050
+Wire Wire Line
+	8650 5300 8700 5300
+Wire Wire Line
+	8700 4650 8600 4650
+Wire Wire Line
+	8600 4750 8700 4750
+Wire Wire Line
+	8700 4750 8700 4650
+Wire Wire Line
+	8650 5500 8750 5500
+Wire Wire Line
+	8750 3900 8750 3800
+Wire Wire Line
+	8650 5700 8800 5700
+Wire Wire Line
+	8800 2950 8600 2950
+Wire Wire Line
+	8600 3050 8800 3050
+Wire Wire Line
+	8800 3050 8800 2950
+Wire Wire Line
+	8650 5900 8850 5900
+Wire Wire Line
+	8850 2100 8600 2100
+Wire Wire Line
+	8600 2200 8850 2200
+Wire Wire Line
+	8850 2200 8850 2100
+Connection ~ 7250 3900
+Wire Wire Line
+	5800 3200 5850 3200
+Wire Wire Line
+	5800 3100 5850 3100
+Wire Wire Line
+	5650 2600 5850 2600
+Wire Wire Line
+	5700 2700 5850 2700
+$Comp
+L power:GND #PWR0137
+U 1 1 61BA754D
+P 5800 3250
+AR Path="/5B57D8E5/61BA754D" Ref="#PWR0137"  Part="1" 
+AR Path="/5FD86289/61BA754D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0137" H 5800 3000 50  0001 C CNN
+F 1 "GND" H 5950 3200 50  0000 C CNN
+F 2 "" H 5800 3250 50  0001 C CNN
+F 3 "" H 5800 3250 50  0001 C CNN
+	1    5800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3400 5700 2700
+$Comp
+L 8bit-computer-rescue:74LS76-8bit-computer-rescue U37
+U 1 1 5B57E4CB
+P 5000 3850
+AR Path="/5B57D8E5/5B57E4CB" Ref="U37"  Part="1" 
+AR Path="/5FD86289/5B57E4CB" Ref="U?"  Part="1" 
+F 0 "U37" H 5200 4150 50  0000 C CNN
+F 1 "74LS76" H 5000 3700 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 5000 3850 50  0001 C CNN
+F 3 "" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:74LS76-8bit-computer-rescue U37
+U 2 1 5B57EBCE
+P 6350 3850
+AR Path="/5B57D8E5/5B57EBCE" Ref="U37"  Part="2" 
+AR Path="/5FD86289/5B57EBCE" Ref="U?"  Part="2" 
+F 0 "U37" H 6550 4150 50  0000 C CNN
+F 1 "74LS76" H 6350 3700 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 6350 3850 50  0001 C CNN
+F 3 "" H 6350 3850 50  0001 C CNN
+	2    6350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5E0B99FD
+P 4650 3350
+AR Path="/5B57D8E5/5E0B99FD" Ref="#PWR0136"  Part="1" 
+AR Path="/5FD86289/5E0B99FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0136" H 4650 3100 50  0001 C CNN
+F 1 "GND" H 4800 3350 50  0000 C CNN
+F 2 "" H 4650 3350 50  0001 C CNN
+F 3 "" H 4650 3350 50  0001 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2750 2500 2750
+Wire Wire Line
+	2350 2950 2500 2950
+Wire Wire Line
+	3550 1800 2350 1800
+Wire Wire Line
+	2350 1900 3550 1900
+Wire Wire Line
+	3550 2000 2350 2000
+Wire Wire Line
+	2350 2100 3550 2100
+Wire Wire Line
+	3550 2200 2350 2200
+Wire Wire Line
+	2350 2300 3550 2300
+Wire Wire Line
+	3550 2400 2350 2400
+Wire Wire Line
+	3450 2700 3550 2700
+Wire Wire Line
+	3450 2850 3450 2700
+Wire Wire Line
+	3300 2850 3450 2850
+Wire Wire Line
+	2350 2500 3550 2500
+Text HLabel 2350 2500 0    60   Input ~ 0
+BUS_7
+Text HLabel 2350 2400 0    60   Input ~ 0
+BUS_6
+Text HLabel 2350 2300 0    60   Input ~ 0
+BUS_5
+Text HLabel 2350 2200 0    60   Input ~ 0
+BUS_4
+Text HLabel 2350 2100 0    60   Input ~ 0
+BUS_3
+Text HLabel 2350 2000 0    60   Input ~ 0
+BUS_2
+Text HLabel 2350 1900 0    60   Input ~ 0
+BUS_1
+Text HLabel 2350 1800 0    60   Input ~ 0
+BUS_0
+Wire Wire Line
+	3500 2800 3550 2800
+Wire Wire Line
+	2350 3150 3500 3150
+Text HLabel 2350 3150 0    60   Input ~ 0
+~CLR
+Text HLabel 2350 2950 0    60   Input ~ 0
+CLK
+Text HLabel 2350 2750 0    60   Input ~ 0
+OI
+Wire Wire Line
+	4900 3300 4900 3250
+$Comp
+L Device:C C21
+U 1 1 5B64F6D6
+P 4900 3100
+AR Path="/5B57D8E5/5B64F6D6" Ref="C21"  Part="1" 
+AR Path="/5FD86289/5B64F6D6" Ref="C?"  Part="1" 
+F 0 "C21" H 4750 3200 50  0000 L CNN
+F 1 "0.1µF" H 4650 3000 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4938 2950 50  0001 C CNN
+F 3 "" H 4900 3100 50  0001 C CNN
+	1    4900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5B635F85
+P 4650 3100
+AR Path="/5B57D8E5/5B635F85" Ref="C20"  Part="1" 
+AR Path="/5FD86289/5B635F85" Ref="C?"  Part="1" 
+F 0 "C20" H 4450 3200 50  0000 L CNN
+F 1 "0.1µF" H 4400 3000 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4688 2950 50  0001 C CNN
+F 3 "" H 4650 3100 50  0001 C CNN
+	1    4650 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 6700
+NoConn ~ 4550 7200
+NoConn ~ 4550 7700
+$Comp
+L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+U 4 1 5B583297
+P 4150 7700
+AR Path="/5B57D8E5/5B583297" Ref="U46"  Part="4" 
+AR Path="/5FD86289/5B583297" Ref="U?"  Part="4" 
+F 0 "U46" H 4150 7750 50  0000 C CNN
+F 1 "74LS08" H 4150 7650 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 4150 7700 50  0001 C CNN
+F 3 "" H 4150 7700 50  0001 C CNN
+	4    4150 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:74LS08-8bit-computer-rescue U46
+U 3 1 5B583258
+P 4150 7200
+AR Path="/5B57D8E5/5B583258" Ref="U46"  Part="3" 
+AR Path="/5FD86289/5B583258" Ref="U?"  Part="3" 
+F 0 "U46" H 4150 7250 50  0000 C CNN
+F 1 "74LS08" H 4150 7150 50  0000 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 4150 7200 50  0001 C CNN
+F 3 "" H 4150 7200 50  0001 C CNN
+	3    4150 7200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5800 6850
+NoConn ~ 5800 7050
+NoConn ~ 5800 7250
+NoConn ~ 5800 7450
+NoConn ~ 4600 7400
+$Comp
+L 8bit-computer-rescue:SW_SPDT-8bit-computer-rescue SW7
+U 1 1 5B580E05
+P 5400 2800
+AR Path="/5B57D8E5/5B580E05" Ref="SW7"  Part="1" 
+AR Path="/5FD86289/5B580E05" Ref="SW?"  Part="1" 
+F 0 "SW7" H 5300 2650 50  0000 C CNN
+F 1 "SW_SPDT" H 5200 2950 50  0001 C CNN
+F 2 "8bit-custom-footprints:DPDT-pushbutton" H 5400 2800 50  0001 C CNN
+F 3 "" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L 8bit-computer-rescue:74LS139-8bit-computer-rescue U38
+U 1 1 5B57E50A
+P 8050 5600
+AR Path="/5B57D8E5/5B57E50A" Ref="U38"  Part="1" 
+AR Path="/5FD86289/5B57E50A" Ref="U?"  Part="1" 
+F 0 "U38" H 8350 5150 50  0000 C CNN
+F 1 "74LS139" H 8050 5550 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 8050 5600 50  0001 C CNN
+F 3 "" H 8050 5600 50  0001 C CNN
+	1    8050 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L 8bit-computer-rescue:LM555-8bit-computer-rescue U39
+U 1 1 5B57E3EF
+P 3150 3600
+AR Path="/5B57D8E5/5B57E3EF" Ref="U39"  Part="1" 
+AR Path="/5FD86289/5B57E3EF" Ref="U?"  Part="1" 
+F 0 "U39" H 3350 3900 50  0000 L CNN
+F 1 "LM555" H 3000 3650 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 3150 3600 50  0001 C CNN
+F 3 "" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5B57E3C8
+P 2300 3600
+AR Path="/5B57D8E5/5B57E3C8" Ref="C8"  Part="1" 
+AR Path="/5FD86289/5B57E3C8" Ref="C?"  Part="1" 
+F 0 "C8" H 2325 3700 50  0000 L CNN
+F 1 "0.01µF" H 2000 3700 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2338 3450 50  0001 C CNN
+F 3 "" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5B57E38D
+P 2500 3900
+AR Path="/5B57D8E5/5B57E38D" Ref="C9"  Part="1" 
+AR Path="/5FD86289/5B57E38D" Ref="C?"  Part="1" 
+F 0 "C9" H 2525 4000 50  0000 L CNN
+F 1 "0.01µF" H 2550 3800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2538 3750 50  0001 C CNN
+F 3 "" H 2500 3900 50  0001 C CNN
+	1    2500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R65
+U 1 1 5B57E303
+P 3850 4100
+AR Path="/5B57D8E5/5B57E303" Ref="R65"  Part="1" 
+AR Path="/5FD86289/5B57E303" Ref="R?"  Part="1" 
+F 0 "R65" H 4000 4150 50  0000 C CNN
+F 1 "1K" H 4000 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3780 4100 50  0001 C CNN
+F 3 "" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U41
+U 1 1 5B57E2D4
+P 8050 3000
+AR Path="/5B57D8E5/5B57E2D4" Ref="U41"  Part="1" 
+AR Path="/5FD86289/5B57E2D4" Ref="U?"  Part="1" 
+F 0 "U41" H 8650 3400 50  0000 R CNN
+F 1 "7SEGMENT_CC" H 8350 2650 50  0001 R CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 8100 2700 50  0001 L CNN
+F 3 "" H 8050 3020 50  0001 L CNN
+	1    8050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U40
+U 1 1 5B57E2AC
+P 8050 2150
+AR Path="/5B57D8E5/5B57E2AC" Ref="U40"  Part="1" 
+AR Path="/5FD86289/5B57E2AC" Ref="U?"  Part="1" 
+F 0 "U40" H 8650 2500 50  0000 R CNN
+F 1 "7SEGMENT_CC" H 8350 1800 50  0001 R CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 8100 1850 50  0001 L CNN
+F 3 "" H 8050 2170 50  0001 L CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 8bit-computer-rescue:7SEGMENT_CC-8bit-computer-rescue U43
+U 1 1 5B57E259
+P 8050 4700
+AR Path="/5B57D8E5/5B57E259" Ref="U43"  Part="1" 
+AR Path="/5FD86289/5B57E259" Ref="U?"  Part="1" 
+F 0 "U43" H 8650 5100 50  0000 R CNN
+F 1 "7SEGMENT_CC" H 8350 4350 50  0001 R CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 8100 4400 50  0001 L CNN
+F 3 "" H 8050 4720 50  0001 L CNN
+	1    8050 4700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
