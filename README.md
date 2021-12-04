@@ -1,1 +1,4 @@
 # 8-Bit-Breadboard-Computer
+  This is a complete reworking of Ben Eater's 8-Bit Breadboard Computer project's schematics. He sells the parts for the project as kits and has several videos documenting the project on youtube. These files are not affiliated with Ben. I created this because I found it difficult to sort out Ben's schematics. My schematic has a heirarchical map that shows what parts of the project are in each kit. The structure is broken up into logical elements, and most importantly the flow of each schematic is top to bottom and left to right with intuitive design flow as the most important presentation factor. 
+ 
+  The color PDF has a page duplicated for easier viewing of the landscape oriented page when viewing digitally. I assume the black and white version will be printed and does not need this feature.  
